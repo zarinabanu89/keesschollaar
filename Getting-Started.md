@@ -1,6 +1,3 @@
- 
-## Why the need of a Pipeline
-
 Azure Cost Insights uses an Azure DevOps Pipeline to download and prepare your cost-data. There are a couple of reasons for this. 
 - **Security Context**
   
