@@ -12,7 +12,7 @@ Azure Cost Insights uses an Azure DevOps Pipeline to download and prepare your c
 
 - **Complexity**
    
-   There is no 1 simple cost api that works for everyone. There are thinks like rate cards, the old and the new api, etc. In the build pipeline all this logic is implemented and the output is a simple format which is the same for everyone.  
+   There is no 1 simple cost api that works for everyone. There are things like rate cards, the old and the new api, etc. In the build pipeline all this logic is implemented and the output is a simple format which is the same for everyone.  
 
 - **Storage**
 
