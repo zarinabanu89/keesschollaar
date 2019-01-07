@@ -34,8 +34,10 @@ jobs:
 
 # Schedule
 The Azure Cost Insights pipeline typically runs scheduled, this is not yet supported in YAML pipelines:
+
 https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=vsts&tabs=yaml#scheduled
-Therefor make sure to set the schedule in the designer view of this pipeline.
+
+Therefor make sure to set the schedule in the designer view of this pipeline (don't forget to **un**check the 'Only schedule builds if the source or pipeline has changed' checkbox)
 
 # Service Connection
 The Azure Service Connection's er referenced by their Guid. This Guid can be found in the Project Settings:
