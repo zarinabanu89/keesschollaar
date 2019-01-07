@@ -40,8 +40,10 @@ https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=vsts
 Therefor make sure to set the schedule in the designer view of this pipeline (don't forget to **un**check the 'Only schedule builds if the source or pipeline has changed' checkbox)
 
 # Service Connection
-The Azure Service Connection's er referenced by their Guid. This Guid can be found in the Project Settings:
+The Azure Service Connection's are referenced by their Guid. This Guid can be found in the Project Settings:
+
 ```https://<<yourtenant>>.visualstudio.com/<<yourproject>>/_settings/adminservices```
+
 Open the Service Connection and find the Guid in the url (the resourceId query string parameter).
 
 For the first run, the pipeline needs to be authorized to use this Service Connection. To do this, try to queue the pipeline, a warning will show up with a button to Authorize. Otherwise, checkout [this page](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/resources?view=vsts#troubleshooting-authorization-for-a-yaml-pipeline).  
