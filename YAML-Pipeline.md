@@ -1,6 +1,6 @@
 If you want your 'Azure Cost Insights pipeline definition in code , this is fully supported.
 
-An example of this pipeline can be found [here].(https://github.com/keesschollaart81/AzureCostInsights.Marketplace/blob/master/azure-pipelines-example.yml)
+An example of this pipeline can be found [here](https://github.com/keesschollaart81/AzureCostInsights.Marketplace/blob/master/azure-pipelines-example.yml).
 
 ``` YAML
 trigger: none
